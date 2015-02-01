@@ -5,7 +5,7 @@ import time
 browser = mechanize.Browser()
 browser.set_handle_robots(False)
 
-browser.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux i686; rv:10.0) Gecko/20100101 Firefox/10.0')]
+browser.addheaders = [('User-agent', 'Firefox')]
 start = 0
 search = "mail+list"
 continuar = True
